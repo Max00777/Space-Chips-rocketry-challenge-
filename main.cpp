@@ -49,6 +49,7 @@ void readMPU()
   Serial.print(", Z: ");
   Serial.print(g.gyro.z);
   Serial.println(" rad/s");
+  Serial.println("enatsu was here);
   delay(100);
 
 }
